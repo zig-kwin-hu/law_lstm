@@ -1,1 +1,7 @@
 #law_lstm
+本代码在166.111.5.246服务器上运行
+python版本：2.7.6
+tensorflow版本：1.0.0
+init.py用于batch的生成，lawlstm.py用于模型的建立和训练。
+本代码用于多标签的法条分类，通过修改config类中的hits_k可以修改模型预测的类目数量。
+
